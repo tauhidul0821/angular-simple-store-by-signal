@@ -1,0 +1,1 @@
+# This is simple store management project using signal, rxjs, behavior subject
