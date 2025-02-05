@@ -177,3 +177,17 @@ export class WatchComponent implements OnInit {
   }
 }
 ```
+
+
+
+
+
+## Comparison: Signals vs. RxJS
+
+| Feature                 | Angular Signals                                | RxJS                                             |
+|-------------------------|-----------------------------------------------|-------------------------------------------------|
+| **Reactivity**          | Simplifies state management for local data.   | Better for managing streams and asynchronous data. |
+| **Simplicity**          | Easier to use for small, reactive storage.    | Requires more setup but offers more flexibility. |
+| **Performance**         | Built for Angular and optimized for change detection. | Slightly heavier due to Observable subscriptions. |
+
+---
